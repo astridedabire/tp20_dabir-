@@ -1,0 +1,92 @@
+.card-title{
+    text-align: center; 
+   text-transform: uppercase;
+   letter-spacing: 5px;
+border: 1px solid;
+
+
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+   margin-top: 5%;
+   padding: 60px;
+   margin: 40px;
+}
+.section1 h5{
+font-size: 45px;
+}
+input{
+    padding: 20px;
+    margin: 10px;
+
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    outline: 0 ;
+    border-bottom: 1px solid black;
+}
+.radio{
+    font-size: 45px;
+}
+.a{
+    margin-left: 60%;
+}
+.form-select{
+   margin: 20px;
+  border: none;
+
+}
+.bouton{
+   
+}
+.section2{
+    display: flex;
+    justify-content: center;
+   margin-top: 5%;
+   padding: 60px;
+   margin: 40px;
+
+}
+.section3{
+    display: flex;
+    justify-content: center;
+   margin-top: 5%;
+   padding: 60px;
+   margin: 40px;
+
+}
+.section2{
+    display: none;
+}
+.section3{
+    display: none;
+}
+.zero{
+   text-align: center;
+}
+.input:focus{
+outline: 0;
+box-shadow: 0 0 0 0;
+}
+@media screen and ( max-width:360px) {
+    h2{font-size: 0.8rem !important;
+    }
+    h5{
+        font-size: 0.8rem !important;
+    }
+    
+    .row{
+       
+        width: 100%;
+    }
+    .formulaire1{
+        width: 100%;
+    }
+    .formulaire2{
+        width: 100%;
+    }
+    .formulaire3{
+        width: 100%;
+    }
+}
